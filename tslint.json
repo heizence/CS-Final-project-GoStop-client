@@ -1,0 +1,38 @@
+{   
+    "defaultSeverity": "error",  
+    "extends": [     
+        "tslint:recommended",     
+        "tslint-config-prettier",     
+        "tslint-config-airbnb"   
+    ],   
+    "jsRules": { 
+        "no-unused-expression": true 
+    },   
+    "rules": { 
+        "function-name": [
+            true, {   
+                "method-regex": "^\\*?\\[?[a-zA-Z][\\w\\d\\.]*\\]?$",   
+                "private-method-regex": "^\\*?\\[?[a-zA-Z][\\w\\d\\.]*\\]?$",   
+                "protected-method-regex": "^\\*?\\[?[a-zA-Z][\\w\\d\\.]*\\]?$",   
+                "static-method-regex": "^\\*?\\[?[a-zA-Z][\\w\\d\\.]*\\]?$",   
+                "function-regex": "^\\*?\\[?[a-zA-Z][\\w\\d\\.]*\\]?$" }
+        ],
+        "max-line-length": [
+            true, 130
+        ],     
+        "prefer-template": false,     
+        "interface-name": [
+            true, 
+            "never-prefix"
+        ],     
+        "import-name": false,     
+        "no-console": false,     
+        "object-literal-sort-keys": false,     
+        "quotemark": [
+            true, 
+            "single"
+        ],     
+        "no-plusplus": 0   
+    },   
+    "rulesDirectory": [] 
+}
