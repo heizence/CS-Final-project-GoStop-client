@@ -26,5 +26,5 @@ npm start
 + [More about this project](https://slides.com/soyoonkim/deck-6494bb#/)
 
 ## Contributors
-Front-end: 김소윤(team leader), 이경준, 금도헌 
+Front-end: 김소윤(team leader), 이경준, 금도헌   
 Back-end: 조희정
